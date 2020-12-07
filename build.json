@@ -1,0 +1,13 @@
+{
+   "minify": true,
+   "maxSize": 153600,
+   "entries": [      
+      "src/Client/GameClient.client.lua",
+      "src/Server/GameServer.server.lua",
+      "src/CharacterScripts/MyCharacterScript.client.lua"
+   ],
+   "dontIgnoreVarDir": [
+      "src/CharacterScripts",
+      "src/Shared/Meshes"
+   ]
+}
