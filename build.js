@@ -6,7 +6,7 @@
  *
  * https://github.com/nidorx/roblox-rojo-bundle
  *
- * Discussions about this project are at https://devforum.roblox.com/t/841175
+ * Discussions about this project are at https://devforum.roblox.com/t/910532
  *
  * ------------------------------------------------------------------------------
  *
