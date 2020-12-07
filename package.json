@@ -1,0 +1,16 @@
+{
+   "name": "roblox-rojo-bundle",
+   "version": "1.0.0",
+   "description": "Rojo project template that facilitates the development and build of Roblox projects",
+   "author": "Alex Rodin <contato@alexrodin.info>",
+   "license": "MIT",
+   "scripts": {
+      "build": "node ./build.js"
+   },
+   "devDependencies": {
+      "cpx": "1.5.0",
+      "luamin": "1.0.4",
+      "mkdirp": "1.0.4",
+      "rimraf": "3.0.2"
+   }
+}
