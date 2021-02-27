@@ -83,6 +83,8 @@ Where:
 - **`minify`** : Indicates whether the build should be minified. Use `false` for debugging and troubleshooting
 - **`maxSize`** : Preferences for the maximum size of the generated files. If the files concatenation is greater than this value, build.js automatically breaks into smaller pieces. Roblox imposes a limitation of ~ 195.3Kb (199999 bytes) for strings, and therefore for Scripts created by Rojo. The default value is 150 * 1024 = 153600.
 - **`entries`** : The input scripts. It is recommended that your game has only one main file on the client and another on the server side. The configuration of other main files can be useful for the generation of custom builds to be used as tools (Ex. Generate a build of your engine that has only the part that animates the weapons to facilitate the work of an animator, who can use this minimal script to do the tests, without the need to run the entire project)
+- **`compressStrings`** : When true it makes the safe replacement of all existing strings in the code. If the replacement result is to generate a larger code, that specific replacement is ignored
+- **`compressFields`** : When true it makes the safe substitution of the attributes of variables existing in the code. If the replacement result is to generate a larger code, that specific replacement is ignored
 - **`dontIgnoreVarDir`** : The build script, when it identifies that a variable is a directory, by default it removes it from the final script. This behavior is expected since we generally save directories as variables just to make it easier to use multiple `require`. However, sometimes our script will actually use that directory. Here you must indicate which directories should not be ignored in the final script
    - Ex: 
       ```lua
