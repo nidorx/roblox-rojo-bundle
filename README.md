@@ -67,6 +67,8 @@ The `build.json` file has the following configuration parameters:
 {
    "minify": false,
    "maxSize": 153600,
+   "compressStrings": true,
+   "compressFields": true,
    "entries": [
       "src/Client/GameClient.client.lua",
       "src/Server/GameServer.server.lua"
